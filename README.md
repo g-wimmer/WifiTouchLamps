@@ -2,14 +2,14 @@ This is the code for a pair of wifi/tor enabled touch lamps. A pair of two lamps
 
 Lamp Hardware Specification:
 
-Hardware wise, the two lamps are identical. They consist of the following:\n
-Raspberry Pi Zero W\n
-Capacitive Touch Sensor\n
-Potentiometer\n
-Resistor-Capacitor Cirtcuit (to serve as an analog to digital for the potentiometer)\n
-Neopizel Light Ring\n
-3 Volt to 5 Volt step up circuit to power the neopixel\n
-3D Printed Housing to hold the electronics. The top half is printed in a white filament to serve as a diffuser for the light (files included in repo)
+Hardware wise, the two lamps are identical. They consist of the following:<br>
+Raspberry Pi Zero W<br>
+Capacitive Touch Sensor<br>
+Potentiometer<br>
+Resistor-Capacitor Cirtcuit (to serve as an analog to digital for the potentiometer)<br>
+Neopizel Light Ring<br>
+3 Volt to 5 Volt step up circuit to power the neopixel<br>
+3D Printed Housing to hold the electronics. The top half is printed in a white filament to serve as a diffuser for the light (files included in repo)<br>
 
 The two lamps are divided into client and server. Each can operate independently of the other if the other lamp is offline. 
 
